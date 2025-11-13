@@ -27,7 +27,15 @@ exclude_patterns = []
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 html_css_files = ["search-fix.css"]
-
+html_theme_options = {
+    "logo": {
+        "text": "MATS-2 v8.1",
+    },
+    "navbar_end": ["navbar-icon-links"],
+    "icon_links": [
+        {"name": "GitHub", "url": "https://www.eternallyobsessed.com", "icon": "fab fa-github"},
+    ],
+}
 
 html_search_summary = True
 html_search_options = {
