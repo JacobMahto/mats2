@@ -31,7 +31,6 @@ html_theme_options = {
     "logo": {
         "text": "MATS-2 v8.1",
     },
-    "navbar_end": ["navbar-icon-links"],
     "icon_links": [
         {"name": "GitHub", "url": "https://www.eternallyobsessed.com", "icon": "fab fa-github"},
     ],
