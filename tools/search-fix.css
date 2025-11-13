@@ -1,0 +1,6 @@
+.search-result .context, .search-summary, .resultlink + .context {
+  display: block !important;
+  margin-top: .25rem;
+  font-size: 0.95em;
+  color: inherit;
+}
